@@ -35,10 +35,9 @@ class App extends Component {
   }
 
   render(){
-    console.log(this.state.carro)
     return(
       <div>
-        <Navbar/>
+        <Navbar carro = {this.state.carro}/>
         <Layout>
           <Title/>
           <Productos
